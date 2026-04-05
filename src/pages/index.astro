@@ -190,7 +190,7 @@ import { about, contact, portfolio, site, socialLinks } from '../data/site';
 
   <footer class="site-footer">
     <div class="container footer-shell">
-      <p>Raimen.dev is built with Astro for fast static deployment.</p>
+      <p>Raimen.dev is built with Astro for fast, elegant static delivery.</p>
       <a href={`mailto:${contact.email}`}>Email Raimen</a>
     </div>
   </footer>
@@ -305,9 +305,11 @@ import { about, contact, portfolio, site, socialLinks } from '../data/site';
   }
 
   .hero-copy h1 {
-    max-width: 10ch;
-    font-size: clamp(3.8rem, 9vw, 7rem);
-    line-height: 0.95;
+    max-width: 11ch;
+    font-size: clamp(4rem, 9vw, 7.35rem);
+    line-height: 0.92;
+    font-weight: 800;
+    letter-spacing: -0.045em;
   }
 
   .hero-copy p {
@@ -468,8 +470,9 @@ import { about, contact, portfolio, site, socialLinks } from '../data/site';
   .hero-card-note h2,
   .contact-grid h2,
   .section-heading h2 {
-    font-size: clamp(2rem, 4vw, 3.5rem);
-    line-height: 0.96;
+    font-size: clamp(2.1rem, 4vw, 3.7rem);
+    line-height: 0.94;
+    letter-spacing: -0.035em;
   }
 
   .hero-card-note p,
@@ -510,8 +513,9 @@ import { about, contact, portfolio, site, socialLinks } from '../data/site';
   .about-highlights h3,
   .project-card h3,
   .social-card h3 {
-    font-size: 1.45rem;
-    line-height: 1.08;
+    font-size: 1.5rem;
+    line-height: 1.02;
+    letter-spacing: -0.025em;
   }
 
   .about-highlights ul,

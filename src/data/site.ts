@@ -28,9 +28,9 @@ export const site = {
   description:
     'Creative developer, systems builder, and internet-native experimenter working across web, hardware, automation, and interactive experiences.',
   eyebrow: 'Creative developer, systems builder, and internet-native experimenter',
-  heroTitle: 'Raimen builds interactive systems with personality.',
+  heroTitle: 'Raimen builds sharp, memorable digital experiences.',
   heroText:
-    'From polished web experiences to hardware-driven chaos, Raimen blends design, development, automation, and live interactivity into projects that feel sharp, alive, and unmistakably custom.',
+    'Design, development, and systems thinking brought together to create work that feels clear, distinctive, and built with intent — from brand-forward websites to custom digital experiences.',
   heroPrimaryCta: {
     label: 'View selected work',
     href: '#portfolio',
@@ -39,25 +39,25 @@ export const site = {
     label: 'Start a conversation',
     href: '#contact',
   },
-  availability: 'Open to collaborations, consulting, creative builds, and ambitious technical experiments.',
+  availability: 'Available for select collaborations, freelance work, and creative technical partnerships.',
   seoKeywords: ['Raimen', 'creative developer', 'systems builder', 'interactive design', 'automation', 'portfolio'],
 };
 
 export const about = {
   intro:
-    'Raimen works at the intersection of software, hardware, design, and live interaction. The through-line is simple: build things that feel intentional, expressive, and technically solid.',
-  body: `A lot of the work lives between categories. Some projects are web-first. Some are systems-first. Some are built for content, audience interaction, or physical devices. The common thread is a bias toward experiences that do something memorable instead of just looking respectable.
+    'Raimen works across design, development, systems thinking, and online identity. The through-line is simple: make things that feel intentional, expressive, and technically sharp.',
+  body: `The work spans brand sites, interactive experiences, creative tooling, and systems that support real-world execution. Some projects are client-facing. Some are internal. Some are experiments that become something bigger later.
 
-This site is a home base for that work: a place to point people, show range, and make future case studies, experiments, and collaborations easier to share.`,
+This site is a home base for that work — a place to show range, establish taste, and make future case studies and collaborations easier to explore.`,
   highlights: [
-    'Interactive web experiences with strong visual direction',
-    'Automation and systems design for real-world workflows',
-    'Hardware, firmware, and device-integrated experiments',
+    'Brand-led websites with a strong visual point of view',
+    'Design and development working as one system',
+    'Creative tooling and digital experiences built to scale',
   ],
   stats: [
-    { value: 'Web', label: 'Design + development' },
-    { value: 'Systems', label: 'Automation + tooling' },
-    { value: 'Physical', label: 'Devices + interaction' },
+    { value: 'Brand', label: 'Visual voice + presence' },
+    { value: 'Build', label: 'Design + development' },
+    { value: 'Systems', label: 'Structure + execution' },
   ],
 };
 
@@ -76,25 +76,22 @@ export const portfolio: PortfolioItem[] = [
     ],
   },
   {
-    title: 'Stream Havoc',
-    role: 'Interactive platform architecture, tooling, and documentation',
-    year: '2026',
+    title: 'Selected Client + Creative Work',
+    role: 'Web experiences, visual systems, and custom builds',
+    year: 'Ongoing',
     summary:
-      'A multi-part interactive stack spanning dashboards, Twitch-facing surfaces, device gateways, firmware, and infrastructure for viewer-driven and operator-controlled experiences.',
-    tags: ['Interactive Systems', 'Twitch', 'Devices', 'Infrastructure'],
+      'A portfolio category reserved for polished client work, collaborative builds, and projects that deserve deeper case-study treatment as the site expands.',
+    tags: ['Web', 'Creative Direction', 'Case Study'],
     featured: true,
-    links: [
-      { label: 'GitHub org', href: 'https://github.com/StreamHavoc' },
-      { label: 'Docs', href: 'https://github.com/StreamHavoc/docs' },
-    ],
+    links: [{ label: 'Case study soon' }],
   },
   {
     title: 'Custom Automation + Build Work',
     role: 'Systems, scripting, hardware integration, and live experiments',
     year: 'Ongoing',
     summary:
-      'A running body of work across automation, firmware, content tooling, interactive builds, and practical experiments that connect software to real-world behavior.',
-    tags: ['Automation', 'Hardware', 'Creative Tech'],
+      'A running body of work across design systems, front-end builds, creative tooling, experiments, and practical digital problem-solving.',
+    tags: ['Creative Tech', 'Experiments', 'Digital Systems'],
     featured: false,
     links: [{ label: 'Get in touch', href: '#contact' }],
   },
@@ -120,16 +117,16 @@ export const socialLinks: SocialLink[] = [
     note: 'Best route for collaborations, consulting, and project inquiries.',
   },
   {
-    label: 'Stream Havoc',
-    handle: 'github.com/StreamHavoc',
-    href: 'https://github.com/StreamHavoc',
-    note: 'Current stack work spanning docs, services, devices, and infra.',
+    label: 'Contact',
+    handle: 'Collaborations and inquiries',
+    href: 'mailto:hello@raimen.dev',
+    note: 'Best for serious project inquiries, freelance work, and creative partnerships.',
   },
 ];
 
 export const contact = {
   email: 'hello@raimen.dev',
-  heading: "Let's build something sharp.",
+  heading: "Let's make something memorable.",
   body:
-    'If you need someone who can think across design, development, systems, automation, and weird technical edge cases without losing the thread, send a note.',
+    'If you need someone who can think clearly about design, development, structure, and execution without flattening the creative edge, send a note.',
 };
