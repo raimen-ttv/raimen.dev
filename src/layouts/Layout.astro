@@ -15,7 +15,7 @@ const { title, description, url } = Astro.props;
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="generator" content={Astro.generator} />
     <meta name="description" content={description} />
-    <meta name="theme-color" content="#f36f45" />
+    <meta name="theme-color" content="#0d1117" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
@@ -61,18 +61,18 @@ const { title, description, url } = Astro.props;
   }
 
   :root {
-    --bg: #f8ecdf;
-    --bg-strong: #f3deca;
-    --surface: rgba(255, 249, 242, 0.82);
-    --surface-strong: #fff7ef;
-    --surface-ink: #201511;
-    --surface-muted: #6a5448;
-    --line: rgba(44, 24, 17, 0.12);
-    --accent: #f36f45;
-    --accent-deep: #cc4a25;
-    --accent-soft: #ffd0b8;
-    --highlight: #2d6c66;
-    --shadow: 0 30px 80px rgba(53, 23, 12, 0.12);
+    --bg: #0d1117;
+    --bg-strong: #111827;
+    --surface: rgba(20, 24, 32, 0.82);
+    --surface-strong: #171c25;
+    --surface-ink: #f5f7fb;
+    --surface-muted: #a9b3c6;
+    --line: rgba(255, 255, 255, 0.1);
+    --accent: #38acda;
+    --accent-deep: #2387af;
+    --accent-soft: rgba(56, 172, 218, 0.16);
+    --highlight: #fab066;
+    --shadow: 0 30px 80px rgba(0, 0, 0, 0.34);
     --radius-lg: 32px;
     --radius-md: 22px;
     --radius-sm: 14px;
@@ -92,9 +92,9 @@ const { title, description, url } = Astro.props;
     min-width: 320px;
     color: var(--surface-ink);
     background:
-      radial-gradient(circle at top left, rgba(243, 111, 69, 0.22), transparent 32%),
-      radial-gradient(circle at 85% 12%, rgba(45, 108, 102, 0.18), transparent 25%),
-      linear-gradient(180deg, #fff4ea 0%, var(--bg) 44%, #efe0cf 100%);
+      radial-gradient(circle at top left, rgba(56, 172, 218, 0.2), transparent 28%),
+      radial-gradient(circle at 85% 12%, rgba(250, 176, 102, 0.16), transparent 22%),
+      linear-gradient(180deg, #090c12 0%, var(--bg) 44%, #121925 100%);
     font-family: 'Space Grotesk', sans-serif;
     line-height: 1.5;
   }
@@ -105,8 +105,8 @@ const { title, description, url } = Astro.props;
     inset: 0;
     z-index: -2;
     background-image:
-      linear-gradient(rgba(45, 24, 18, 0.04) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(45, 24, 18, 0.04) 1px, transparent 1px);
+      linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
     background-size: 40px 40px;
     mask-image: radial-gradient(circle at center, black 28%, transparent 85%);
     pointer-events: none;
@@ -147,7 +147,7 @@ const { title, description, url } = Astro.props;
     z-index: 50;
     padding: 0.75rem 1rem;
     border-radius: 999px;
-    background: #fff;
+    background: #161c25;
     transition: top 0.2s ease;
   }
 
@@ -171,9 +171,9 @@ const { title, description, url } = Astro.props;
     gap: 0.55rem;
     padding: 0.45rem 0.8rem;
     border-radius: 999px;
-    background: rgba(255, 247, 239, 0.72);
-    border: 1px solid rgba(32, 21, 17, 0.08);
-    color: var(--accent-deep);
+    background: rgba(20, 24, 32, 0.82);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    color: var(--accent);
     font-size: 0.82rem;
     text-transform: uppercase;
     letter-spacing: 0.12em;
