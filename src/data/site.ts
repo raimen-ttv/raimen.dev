@@ -30,7 +30,7 @@ export const site = {
   eyebrow: 'DevOps engineer, builder, and creative technologist',
   heroTitle: 'Raimen builds software, systems, and interactive experiments.',
   heroText:
-    'Software, hardware, automation, and live interaction — brought together by someone who likes building things that are useful, weird, and memorable.',
+    'Software, hardware, automation, and live interaction — built by someone who likes making things that are useful, weird, and memorable.',
   heroPrimaryCta: {
     label: 'Get in touch',
     href: '#contact',
@@ -48,7 +48,7 @@ export const about = {
     'Raimen is a hands-on builder with a DevOps background who works across software, hardware, automation, and interactive systems.',
   body: `A lot of the work starts with a practical problem and turns into a build: a tool, a workflow, a device, an interactive system, or a piece of content infrastructure.
 
-This site is intentionally simple. It's a place to point people, share the basics, and make it easy to find the channels where the work is actually happening.`,
+Raimen likes making things that work in the real world and still feel inventive, personal, and fun to interact with.`,
   highlights: [
     'Software, automation, and infrastructure',
     'Hardware builds and interactive systems',
