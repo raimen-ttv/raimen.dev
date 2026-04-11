@@ -42,7 +42,12 @@ export const socialLinks: SocialLink[] = [
   {
     label: 'Instagram',
     icon: 'instagram',
-    href: 'https://instagram.com/RaimenBuilds',
+    href: 'https://instagram.com/raimen.builds',
+  },
+  {
+    label: 'Bluesky',
+    icon: 'bluesky',
+    href: 'https://bsky.app/profile/raimen.dev',
   },
   {
     label: 'Discord',
